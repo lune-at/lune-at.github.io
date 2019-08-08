@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/*フォント*/
+.wf-nicomoji {
+    font-family: "Nico Moji"; 
+}
+/*全体*/
+body{
+    font-size: 14px;
+}
+/*リスト*/
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*名刺ブロック*/
+.meishi{
+    background: #ffffff;
+    box-shadow: 1px 1px 3px #666666;
+    width: 280px;
+    height:100%;
+    border: 1px solid #666666;
+    border-end-end-radius: 6px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Nico Moji";
+}
+/*画像、テキストなどコンテンツの部分*/
+/*画像の範囲*/
+.prof-img{
+    width: 120px;
+    height: 120px;
+    background-image:linear-gradient(25deg, rgba(86, 86, 167, 0.315) 10%, rgba(255, 255, 255, 0.4) 80%) ,url(../img/prof.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px dotted #000000;
+    margin:0 auto;
+    background-repeat:no-repeat;
+}
+/*上下の背景柄*/
+.prof-photo,.prof-footer {
+    height: 20px;
+    padding-top: 8px;
+    padding-bottom: 3px;
+    background: repeating-linear-gradient(-45deg, #000000,#999999 1px,#000000 5px);
+}
+/*テキスト部分*/
+.prof-text{
+    padding-top: 85px;
+}
+/*1段目名前、所属部署の部分*/
+.me{
+    margin-bottom: 10px;
+    color:#000000;
+    text-align: center;
+}
+/*フロントエンドエンジニアしぼう　の部分*/
+.my-role{
+    margin-top:15px;
+    text-shadow:0.5px 0.5px 0 #fff;
+}
+/*名前*/
+.name{
+    font-size: 26px;
+    margin: 3px;
+}
+/*名前ローマ字表記*/
+.name_roman{
+    font-size: 14px;
+    margin:0 0 10px 0;
+}
+/*書く部分文字の色*/
+.my-role,.company,.skill_lang,.skill_work{
+    color: #666666;
+}
+/*連絡先（メール、電話）の部分*/
+.contact{
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-top:1px dotted #000000;
+    border-bottom:1px dotted #000000;
+    text-align: center;
+}
+/*リンクの色*/
+.contact a,.contact a:link,.contact a:hover,.contact a:visited,.contact a:active{
+    color: #666666;
+}
+/*できることと学んだこと、学んでいること*/
+.skill{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/*かじった～言語と業務内容の部分*/
+.lang_value,.work_value{
+    font-size: 13px;
+}
+
+/*ここからスマホ用*/
+@media screen and (max-width:480px){
+  body{
+      text-align: center;
+      margin: 0 auto;
+  }
+
+  /*PC表示とそこまでサイズ変わらないのであえていじらずにひとまずこのまま*/
+}
