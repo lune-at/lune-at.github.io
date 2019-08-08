@@ -1,0 +1,238 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+   <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <title>mochi ha mochiya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="screen">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="menuWrapper">
+            <!--スマホ用よくあるハンバーガーメニューの『三』の部分-->
+            <a class="trigger">
+                <span class="trigger_line trigger_line--top"></span>
+                <span class="trigger_line trigger_line--center"></span>
+                <span class="trigger_line trigger_line--bottom"></span>
+            </a>
+        </div>
+        <!--サイトタイトル-->
+        <div class="bg-switcher">
+            <h1 class="bg-title">Mochi ha Mochiya</h1>
+        <!--グローバルナビ　メニュー部分-->    
+        <nav class="header_nav"> 
+            <div class="nav_menu_wrap">
+                <ul class="nav_menu"> 
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </header>
+    <!--ここからサイトマップや問い合わせフォームなどabout-->
+    <section id="about" class="fadein">
+        <h2>ABOUT</h2>
+        <p>超備忘録的なサイト<br>
+        作っているものまとめ。<br>
+        業務内容まとめページも増えるかもしれない。<br>
+        動作環境(PC)：<br>
+        Windows10 Pro<br>
+        Google Chrome 75.0.3770.100（Official Build） （64 ビット）<br>
+        Microsoft Edge 44.17763.1.0<br>
+        動作環境(スマホ)<br>
+        Galaxy note8  Android 9 ブラウザはChrome
+        </p>
+        <h3>SITEMAP</h3>
+        <p>
+        ABOUT：ここ<br>
+        NEWS:更新履歴<br>
+        WORKS：作ったものをどんどん入れていくスペース。メインなコンテンツ。 <br>
+        GALLERY：ただ横に流れていくスライダーを作りたかっただけ…
+        </p>
+        <!--お問い合わせ部分　※送れません-->
+        <!-- <h3>CONTACT</h3>
+        <p>お問い合わせフォーム
+        </p>
+        <form action="mail.php" method="POST">
+            <label>名前(HN可)：<input type="text" name="_name" size="20"></label><br>
+            <label>連絡先電番：<input type="tel" name="_tel"></label><br>
+            <label class="comment">コメント：<textarea name="_comment" rows="5" size="40"></textarea></label>
+            <input type="submit" value="おくる">
+        </form> -->
+    </section>
+    <!--サイトマップの部分-->
+    <section id="news" class="fadein">
+        <div class="contentWrapper">
+        <h2>NEWS</h2>
+        <dl class="clearfix">
+            <dt>2019/06/13</dt>
+            <dd>テストで制作中ω</dd>
+            <dt>2019/06/17</dt>
+            <dd>Web名刺のページを追加。）</dd>
+            <dt>2019/06/20</dt>
+            <dd>すきま時間で制作進める。ハンバーガーメニューやページリンクなど設置</dd>
+        </dl>
+        </div>
+    </section>
+    <!--各種コンテンツリンク部分-->
+    <section id="works" class="fadein">
+    <div class="bg-mask">
+        <div class="contentWrapper">
+            <h2>WORKS</h2>
+            <p>作ったまとめ</p>
+                <div class="flex">
+                    <div class="flexcontent">
+                        <a href="web_meishi.html" target="_blank">
+                        <figure class="works_image">
+                            <img src="img/001.jpg" alt="web名刺">
+                            <figcaption class="works_caption">
+                                <p>web名刺 つくってみた</p>
+                            </figcaption>
+                        </figure>
+                        </a>
+                    </div>
+                    <div class="flexcontent">
+                        <a href="../ayao/index.html" target="_blank">
+                        <figure class="works_image">
+                                <img src="img/002.jpg" alt="以前の自分サイト">
+                                <figcaption class="works_caption">
+                                    <p>【恥ずかしい】以前の制作物</p>
+                                </figcaption>
+                        </figure>
+                        </a>
+                    </div>
+                    <div class="flexcontent">
+                        <a href="../my_site02/index.html" target="_blank">
+                        <figure class="works_image">
+                                <img src="img/003.jpg" alt="チームサイト用テンプレサイト">
+                                <figcaption class="works_caption">
+                                <p>【見た目だけ】部署内のまとめサイト</p>
+                                </figcaption>
+                        </figure>
+                        </a>
+                    </div>
+                    <div class="flexcontent">
+                        <a href="http://ayano0226ta.php.xdomain.jp/form.html" target="_blank">
+                        <figure class="works_image">
+                                <img src="img/004.jpg" alt="ジェネレータ風">
+                                <figcaption class="works_caption">
+                                <p>web名刺ジェネレータもどき</p>
+                                </figcaption>
+                        </figure>
+                        </a>
+                    </div>
+                </div>
+        </div> 
+    </div>       
+    </section>
+    <!--とりあえずうごかしてみたいだけスライダー-->
+    <section id="gallery" class="fadein">
+        <div class="contentWrapper">
+            <h2>GALLERY</h2>
+            <p>ただの流れてくる癒し</p>
+        </div>
+      <ul class="slider">
+          <li><img src="img/001.jpg" alt="ねこ"></li>
+          <li><img src="img/002.jpg" alt="うさぎ"></li>
+          <li><img src="img/003.jpg" alt="ねこ"></li>
+          <li><img src="img/004.jpg" alt="うさぎ"></li> 
+          <li><img src="img/006.jpg" alt="うなぎ"></li>
+      </ul>
+    </section>
+    <!--下部分メニュー-->
+    <footer>
+        <div id="upperFooter">
+            <div class="contentWrapper">
+            <nav>
+                <ul class="flex">
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#works">WORKS</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                </ul>
+            </nav>
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+            <div id="page_top"><a href="#"></a></div>
+            <h3 class="footer-title">Mochi ha Mochiya</h3>
+            </div>
+        </div>
+        <div id="bottomFooter">
+            <small>copyright©Mochi ha Mochiya All Rights Reserved.</small>
+        </div>
+    </footer>
+    <!--ここからjQuery部分-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        //ヘッダ用フェードアウトスライダー
+        $('.bg-switcher').bgSwitcher({
+                    images: ['img/001.jpg','img/002.jpg','img/003.jpg','img/006.jpg'], // 切り替える画像
+                    Interval: 5000, //切り替えの間隔 5秒で切り替え
+                    start: true, //$.fn.bgswitcher(config)をコールした時に切り替えを開始する
+                    loop: true, //切り替えをループする
+                    shuffle: false, //背景画像の順番をシャッフルする
+                    effect: "fade", //エフェクト　フェードアウトさせる
+                    duration: 2000, //エフェクトの時間 
+                    easing: "swing" //エフェクトのイージング "swing" "linear"
+                });
+        //gallery用スライダー        
+        $('.slider').slick({
+                autoplay:true,
+                infinite:true,
+                dots:false,
+                // fade:true,
+                slidesToShow:3, //実際に設定した枚数-1にする
+                autoplaySpeed:0,
+                cssEase:'linear',//ヌルヌル動く
+                speed:5000,
+                initialSlide:0,//0番目から
+                arrows:false //矢印なし
+            });
+        //スマホハンバーガーメニュー    
+        $('.trigger').on('click', function(){ //メニューボタンクリックしたら
+            $('.trigger_line').toggleClass('active');　//.trigger
+            // $('header nav').fadeToggle();
+            $('.header_nav').toggleClass('onanimation');
+           });
+          $('.header_nav li').on('click', function(){ 
+             $('.trigger_line').removeClass('active'); 
+             $(this).removeClass();
+             $('.header_nav').toggleClass('onanimation');
+            });    
+        //ページ内リンクのスムーズスクロール
+        $('a[href^="#"]').click(function(){
+            var speed = 1000;
+            var href = $(this).attr("href");
+            var target = $(href == "#" || href == "" ? 'html' : href );
+            var position = target.offset().top;
+            $('body,html').animate({scrollTop:position}, speed, 'swing');
+                return false;
+            });
+        //TOPにもどるボタン(フェードアウト仕様
+            var pagetop = $('#page_top');
+            pagetop.hide();
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 150) {  //150px分スクロールしたらでてくる
+                pagetop.fadeIn();
+            } else {
+                pagetop.fadeOut(); //150pxじゃなければでてこない
+            }
+        });
+        pagetop.click(function () { //ボタンクリックしたらの挙動
+            $('body, html').animate({
+                 scrollTop: 0 }, 500); 
+            return false;
+        });
+    });         
+    </script>
+</body>
+</html>
